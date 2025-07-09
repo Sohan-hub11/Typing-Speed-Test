@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Speedo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>
+            Speedo
+        </h1>
+        <div id="header">
+            <div id="timeBarContainer">
+                <div id="timeBar"></div>
+            </div>
+
+            <div id="info">
+                <span id="wpmDisplay">WPM: 0</span> |
+                <span id="accuracyDisplay">Accuracy: 0%</span> |
+                <span id="timeDisplay">60</span>sec left
+            </div>
+            <div id="buttons">
+                <button id="newGameBtn">New game</button>
+            </div>
+        </div>
+        <div id="game" tabindex="0">
+            <div id="words"></div>
+            <div id="cursor"></div>
+            <div id="focus-error"></div>
+        </div>
+    </main>
+    <script src="typingtest.js"></script>
+</body>
+</html>
