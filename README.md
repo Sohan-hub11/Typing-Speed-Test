@@ -72,10 +72,4 @@ Made with ❤️ by [Sohan Samanta](https://github.com/Sohan-hub11)
 
 ---
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE)
-
----
-
 ⭐ If you found this helpful, give it a **star** and consider contributing!
